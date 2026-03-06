@@ -1,0 +1,47 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Archivos de respaldo y temporales
+archive/
+*.log
+*.bak
+*.tmp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs y Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# En caso de que se generen PDFs grandes o temporales que no van a git
+# (descomentar si es necesario evitar subir salidas pesadas)
+# output/*.pdf
+# output/*.png
